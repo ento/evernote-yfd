@@ -1,0 +1,26 @@
+### Evernote credentials
+# production:
+# https://www.evernote.com/api/DeveloperToken.action
+# sandbox:
+# https://sandbox.evernote.com/api/DeveloperToken.action
+
+## required: developer token
+EVERNOTE_DEVELOPER_TOKEN = 'your developer token'
+## required: list of notebook names to include
+INCLUDE_NOTEBOOKS = []
+## list of notebook names to exclude
+EXCLUDE_NOTEBOOKS = []
+
+### Twitter credentials
+# https://dev.twitter.com/docs/auth/tokens-devtwittercom
+
+## required: oauth credentials
+TWITTER_CONSUMER_KEY = 'your app consumer key'
+TWITTER_CONSUMER_SECRET = 'you app consumer secret'
+TWITTER_ACCESS_KEY = 'your access key'
+TWITTER_ACCESS_SECRET = 'your access secret'
+
+### virtualenv
+
+## path to your virtualenv relative to track_note_counts.py
+VIRTUALENV_PATH = 'env'

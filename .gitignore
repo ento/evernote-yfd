@@ -1,0 +1,5 @@
+*.pyc
+*~
+config.py
+evernote-yfd.track-note-counts.plist
+env/
